@@ -1,0 +1,8 @@
+prefix=/home/paul/jackal_ws/devel
+
+Name: jackal_package
+Description: Description of jackal_package
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/paul/jackal_ws/devel/lib 
+Requires: 

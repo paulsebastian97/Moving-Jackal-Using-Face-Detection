@@ -1,0 +1,8 @@
+prefix=/home/paul/jackal_ws/install
+
+Name: jackal_bringup
+Description: Description of jackal_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/paul/jackal_ws/install/lib 
+Requires: 

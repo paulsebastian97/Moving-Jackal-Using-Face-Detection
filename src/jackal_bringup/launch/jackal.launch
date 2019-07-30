@@ -1,0 +1,16 @@
+<launch>
+	<node name="jackal_mover_node" pkg="jackal_package" type="jackal_mover_node.py"/>
+	<node name="face_detection_node" pkg="jackal_package" type="face_detection_node.py"/>
+	<node name="turtle_teleop_key" pkg="turtlesim" type="turtle_teleop_key"/>
+	
+	
+
+	<node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node"/>
+
+	<!--	
+	<include file="$(find jackal_gazebo)/launch/jackal_world.launch"/>
+	<node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node"/>
+	<include file="$(find package_name)/directory/another.launch"/>
+	-->
+	
+</launch>

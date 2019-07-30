@@ -1,0 +1,2 @@
+jackal_bringup:jackal_package
+-DCATKIN_DEVEL_PREFIX=/home/paul/jackal_ws/devel -DCMAKE_INSTALL_PREFIX=/home/paul/jackal_ws/install -G Unix Makefiles
