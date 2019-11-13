@@ -63,7 +63,8 @@ def move(yes_or_no):
 if __name__=="__main__":
 	rospy.init_node("jackal_mover_node")
 	#pub=rospy.Publisher("/jackal_velocity_controller/cmd_vel", Twist, queue_size=10)
-	pub=rospy.Publisher("/turtle1/cmd_vel", Twist, queue_size=10)
+	pub=rospy.Publisher("/husky_velocity_controller/cmd_vel", Twist, queue_size=10)
+	#pub=rospy.Publisher("/turtle1/cmd_vel", Twist, queue_size=10)
 	#while not rospy.is_shutdown():
 	sub=rospy.Subscriber("/detectedornot", Int64, move)
 	

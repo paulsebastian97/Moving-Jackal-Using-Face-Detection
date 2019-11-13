@@ -4,10 +4,12 @@
 	<node name="turtle_teleop_key" pkg="turtlesim" type="turtle_teleop_key"/>
 	
 	
-
-	<node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node"/>
+	<include file="$(find husky_gazebo)/launch/husky_empty_world.launch"/>
+	
 
 	<!--	
+	<include file="$(find husky_gazebo)/launch/husky_empty_world.launch"/>
+	<include file="$(find jackal_gazebo)/launch/jackal_world.launch"/>
 	<include file="$(find jackal_gazebo)/launch/jackal_world.launch"/>
 	<node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node"/>
 	<include file="$(find package_name)/directory/another.launch"/>

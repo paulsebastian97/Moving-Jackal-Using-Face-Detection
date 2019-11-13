@@ -1,2 +1,2 @@
-jackal_bringup:jackal_package
+husky-kinetic-devel/husky_base:husky-kinetic-devel/husky_bringup:husky-kinetic-devel/husky_control:husky-kinetic-devel/husky_description:husky-kinetic-devel/husky_desktop:husky-kinetic-devel/husky_gazebo:husky-kinetic-devel/husky_msgs:husky-kinetic-devel/husky_navigation:husky-kinetic-devel/husky_robot:husky-kinetic-devel/husky_simulator:husky-kinetic-devel/husky_viz:jackal_bringup:jackal_package
 -DCATKIN_DEVEL_PREFIX=/home/paul/jackal_ws/devel -DCMAKE_INSTALL_PREFIX=/home/paul/jackal_ws/install -G Unix Makefiles
